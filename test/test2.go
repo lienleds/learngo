@@ -8,4 +8,9 @@ func main() {
 	for i = 2; i < 10; i++ {
 		fmt.Printf("lksadfjkladsjf %v\n", i)
 	}
+
+	for i < 20 {
+		i++;
+		fmt.Printf("adfsjkloadsfjk i = %v\n", i)
+	}
 }
