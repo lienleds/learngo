@@ -1,16 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"math"
+    //"fmt"
+    "learngo/package/test1"
 )
 
-func f(t int) string {
-	ret := "vaule = " + fmt.Sprint(math.Sqrt(float64(t)))
-	return ret
-}
-
 func main() {
-	fmt.Printf("jldfksaskljfkldsj %v\n", f(-1))
-	fmt.Printf("fjkldasfkldsajfkldsajfkodsaj\n")
+    test1.Myfunc()
 }
