@@ -1,11 +1,16 @@
 package main
 
 import (
+	"errors"
 	"fmt"
+	"math"
 )
 
 func Sqrt(x float64) (float64, error) {
-	return 0, nil
+	if x < 0 {
+		return 0, errors.New("cannot sqrt negative number")
+	}
+	return math.Sqrt(x), nil
 }
 
 func main() {
